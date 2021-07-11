@@ -1,0 +1,60 @@
+body {
+	background-image: url(bgc.jpg);
+	padding: 0 10%; /*внутренныий отступ*/
+}
+h1 {
+	text-align: center;
+}
+div {
+	background-color: white;
+	padding: 0 10%;
+}
+fieldset {
+	border-color: #11cfac;
+}
+legend {
+	color: #11cfac;
+	text-align: left;
+}
+input,select {
+	border-color: #11cfac;/*цвет рамки*/
+	border-style: solid;/*стиль рамки*/
+	border-width: 2px;/*толщина рамки*/
+	padding: 15px;/*puts air inside*/
+	margin: auto;/*puts the blocks to the middle*/
+	display: block;/*puts all of the blocks to the middle*/
+	border-radius: 10px;/*makes the block look like a circle*/
+	outline: none;/**/
+	width: 50%;/*puts all the block the same*/
+}
+select {
+	width: 60%;/*makes all the block the same form*/
+}
+label {
+	color: #11cfac;/*changes color of the blocks*/
+	margin-right: 12px;/*gives space*/
+}
+input[type=radio],input[type=checkbox] {
+	width: 10px;/*puts yes,no,and ofcourse in the same line.*/
+	display: inline-block;/*puts them in the same position*/
+}
+.feedback {
+	text-align: center;/*puts all the words in the middle*/
+}
+form {
+	text-align: center;
+}
+.left {
+	display: block;
+	text-align: left;
+}
+button {
+	background-color: #11cfac;
+	width: 50%;
+	padding: 3%;
+	border: none;
+	border-radius: 100px;
+	color: white;
+	outline: none;
+	font-weight: bold;
+}

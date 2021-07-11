@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="fox.jpg" type="image/png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>form</title>
+</head>
+<body>
+	<div>
+		<h1>student questionnaire</h1>
+		<form>
+			<fieldset>
+				<legend>contacting information</legend>
+				<input type="text" placeholder="put name"><br>
+				<input type="text" placeholder="put phone number"><br>
+				<input type="email" placeholder="put email"><br>
+			</fieldset>
+			<fieldset>
+				<legend>personal information</legend>
+				<label class="left" for="age">your age</label>
+				<input id="age" type="number">
+
+				<label class="left" for="birthsday">birthsday</label>
+				<input id="birthsday" type="date">
+
+				<label class="left">what curse are you on</label>
+				<select>
+					<option>scratch</option>
+					<option>c++</option>
+					<option>python</option>
+				</select>
+			</fieldset>
+			<fieldset class="feedback">
+				<legend>feedback</legend>
+				<label for="">would you reccomend us to your friends</label><br><br>
+
+				<input id="yes" type="radio" name="feedback">
+				<label for="yes">yes</label>
+
+				<input id="no" type="radio" name="feedback">
+				<label for="no">no</label>
+
+				<input id="ofcourse" type="radio" name="feedback">
+				<label for="ofcourse">ofcourse</label>
+			</fieldset><br>
+			<input type="checkbox">
+			<label>authorize data processing</label>
+
+			<input type="checkbox">
+			<label>send news to gmail</label><br><br>
+
+			<button>send</button><br><br>
+		</form>
+	</div>
+
+</body>
+</html>
